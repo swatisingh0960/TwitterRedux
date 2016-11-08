@@ -47,7 +47,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://ezgif.com/video-to-gif/cdd8290daf.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/swatisingh0960/TwitterRedux/blob/master/ezgif-3347872337.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
