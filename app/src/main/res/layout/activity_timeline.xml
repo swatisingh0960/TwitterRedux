@@ -31,7 +31,7 @@
 
     <include layout="@layout/content_timeline"/>
 
-    <android.support.design.widget.FloatingActionButton
+   <!-- <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
         android:layout_margin="@dimen/fab_margin"
         android:src="@drawable/ic_compose"
         app:backgroundTint="@color/primary"
-        app:layout_behavior="com.swatisingh0960.github.twitterredux.others.ScrollAwareFABBehavior"/>
+        app:layout_behavior="com.swatisingh0960.github.twitterredux.others.ScrollAwareFABBehavior"/> -->
 
 </android.support.design.widget.CoordinatorLayout>
     <!-- The navigation drawer that comes from the left -->

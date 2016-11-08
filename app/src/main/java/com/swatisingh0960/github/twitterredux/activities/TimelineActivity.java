@@ -3,7 +3,6 @@ package com.swatisingh0960.github.twitterredux.activities;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -52,7 +51,7 @@ public class TimelineActivity extends AppCompatActivity
     @BindView(R.id.tabs) PagerSlidingTabStrip tabStrip;
     @BindView(R.id.viewpager) ViewPager viewPager;
     @BindView(R.id.toolbar) Toolbar toolbar;
-    @BindView(R.id.fab) FloatingActionButton fab;
+//    @BindView(R.id.fab) FloatingActionButton fab;
     @BindView(R.id.drawer_layout) DrawerLayout mDrawer;
     @BindView(R.id.nvView) NavigationView nvDrawer;
     ImageView banner;
@@ -247,15 +246,15 @@ public class TimelineActivity extends AppCompatActivity
     }
 
     // double tap to scroll to top
-    @OnClick({R.id.toolbar, R.id.fab})
+    @OnClick({R.id.toolbar}) //, R.id.fab})
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.toolbar:
                 getCurrentFragment().goToTop();
                 break;
-            case R.id.fab:
-                composeTweet();
-                break;
+//            case R.id.fab:
+//                composeTweet();
+//                break;
         }
     }
 
