@@ -50,13 +50,10 @@ public class TimelineActivity extends AppCompatActivity
     private TwitterClient client;
     public TweetsPagerAdapter tweetsPagerAdapter;
     @BindView(R.id.tabs) PagerSlidingTabStrip tabStrip;
-    @BindView(R.id.viewpager)
-    ViewPager viewPager;
-    @BindView(R.id.toolbar)
-    Toolbar toolbar;
+    @BindView(R.id.viewpager) ViewPager viewPager;
+    @BindView(R.id.toolbar) Toolbar toolbar;
     @BindView(R.id.fab) FloatingActionButton fab;
-    @BindView(R.id.drawer_layout)
-    DrawerLayout mDrawer;
+    @BindView(R.id.drawer_layout) DrawerLayout mDrawer;
     @BindView(R.id.nvView) NavigationView nvDrawer;
     ImageView banner;
     ImageView profile;
