@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    buildToolsVersion "24.0.0"
 
     // For dataBinding
     dataBinding.enabled = true
@@ -12,7 +12,7 @@ android {
         // for Vector Drawables
         vectorDrawables.useSupportLibrary = true
 
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 24
 
         versionCode 1
@@ -45,6 +45,10 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+
+    // for SwipeRefreshLayout and others
+    compile 'com.android.support:appcompat-v7:24.0.0'
+
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.1.1'
     testCompile 'junit:junit:4.12'
@@ -81,4 +85,7 @@ dependencies {
     compile 'com.yqritc:android-scalablevideoview:1.0.4'
     // for PagerSlidingTapTrip
     compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    // for RoundedCorner effect
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+
 }

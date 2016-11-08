@@ -34,6 +34,6 @@
         android:layout_margin="@dimen/fab_margin"
         android:src="@drawable/ic_compose"
         app:backgroundTint="@color/primary"
-        app:layout_behavior="com.zekunwang.happytweets.others.ScrollAwareFABBehavior"/>
+        app:layout_behavior="com.swatisingh0960.github.twitterredux.others.ScrollAwareFABBehavior"/>
 
 </android.support.design.widget.CoordinatorLayout>

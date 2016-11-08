@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/tvNotice"
             android:layout_marginRight="@dimen/item_img_profile_margin"
-            app:srcCompat ="@drawable/ic_twitter_retweet"/>
+            android:src ="@drawable/ic_twitter_retweet"/>
         <ImageView
             android:layout_width="@dimen/item_icon_width"
             android:layout_height="@dimen/item_icon_width"
@@ -131,7 +131,7 @@
             android:layout_marginTop="@dimen/item_view_padding"
             android:layout_marginRight="@dimen/item_icon_margin"
             tools:background="#00ffff"
-            app:srcCompat="@drawable/ic_reply"
+            android:src="@drawable/ic_reply"
             android:id="@+id/ivReply"
             android:layout_alignLeft="@+id/tvUsername"
             android:layout_alignParentBottom="true"/>
@@ -168,7 +168,7 @@
             android:layout_marginTop="@dimen/item_view_padding"
             android:layout_marginRight="@dimen/item_view_padding"
             tools:background="#00ffff"
-            app:srcCompat ='@{tweet.isFavorited() ? @drawable/ic_heart_lighted : @drawable/ic_heart}'
+            android:src ='@{tweet.isFavorited() ? @drawable/ic_heart_lighted : @drawable/ic_heart}'
             android:drawablePadding="@dimen/item_view_padding"
             android:id="@+id/ivFavorite"
             android:gravity="center_vertical"
@@ -195,7 +195,7 @@
             android:layout_marginTop="@dimen/item_view_padding"
             android:layout_marginRight="@dimen/item_view_padding"
             tools:background="#00ffff"
-            app:srcCompat="@drawable/ic_message_text"
+            android:src="@drawable/ic_message_text"
             android:drawablePadding="@dimen/item_view_padding"
             android:visibility="invisible"
             android:id="@+id/ivMessage"

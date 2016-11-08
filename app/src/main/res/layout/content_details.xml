@@ -114,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toLeftOf="@+id/tvNotice"
                     android:layout_marginRight="@dimen/item_img_profile_margin"
-                    app:srcCompat="@drawable/ic_twitter_retweet"
+                    android:src="@drawable/ic_twitter_retweet"
                     android:visibility="gone"/>
                 <ImageView
                     android:layout_width="@dimen/item_icon_width"
@@ -189,7 +189,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:id="@+id/ivButtonImage"
-                        app:srcCompat="@drawable/ic_play_button"
+                        android:src="@drawable/ic_play_button"
                         android:visibility="gone"/>
                 </RelativeLayout>
                 <TextView
@@ -264,35 +264,35 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:id="@+id/ivReply"
-                    app:srcCompat="@drawable/ic_reply"/>
+                    android:src="@drawable/ic_reply"/>
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:id="@+id/ivRetweet"
-                    app:srcCompat='@{tweet.isRetweeted() ? @drawable/ic_twitter_retweet_lighted : @drawable/ic_twitter_retweet}' />
+                    android:src='@{tweet.isRetweeted() ? @drawable/ic_twitter_retweet_lighted : @drawable/ic_twitter_retweet}' />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:id="@+id/ivFavorite"
-                    app:srcCompat='@{tweet.isFavorited() ? @drawable/ic_heart_lighted : @drawable/ic_heart}' />
+                    android:src='@{tweet.isFavorited() ? @drawable/ic_heart_lighted : @drawable/ic_heart}' />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:visibility="gone"
-                    app:srcCompat="@drawable/ic_message_text"/>
+                    android:src="@drawable/ic_message_text"/>
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:id="@+id/ivShare"
-                    app:srcCompat="@drawable/ic_share_variant"/>
+                    android:src="@drawable/ic_share_variant"/>
             </LinearLayout>
         </LinearLayout>
 

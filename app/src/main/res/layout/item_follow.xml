@@ -50,7 +50,7 @@
             android:text='@{"@" + user.getScreenName()}'
             tools:background="#00ffff"
             tools:text="456"/>
-        <com.zekunwang.happytweets.others.LinkifiedTextView
+        <com.swatisingh0960.github.twitterredux.others.LinkifiedTextView
             android:id="@+id/tvBody"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
